@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    background-position: absolute;
+}
+.a{
+    height: 130;
+    background: #FFFF47;
+
+}
+.a ul li{
+    display: inline;
+}
+
+.a input[type=button]{
+    margin-left: 400px;
+    font-size: 18px;
+    background: #33FF00;
+    color: #fff;
+    text-shadow: 1px 1px 3px #808080;
+}
+.a input[type=text],input[id=search]{
+    border: #FF9900 1px solid;
+    margin: 5%;
+    font-size: medium;
+    border-radius: 20px;
+    border-style: groove;
+    font-size: 20px;
+}
+.a input[type=text]:hover
+{
+    width: 70%;
+    border: #FF3300 1px solid;
+    border-radius: 20px;
+
+}
+.a input[type=submit]
+{
+     border: solid;
+    outline: none;
+    height: 40px;
+    background: #FFFF00;
+    color: #003399;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.a input[type=submit]:hover
+{
+     cursor: pointer;
+    border: #669999 1px solid;
+    color: #000;
+}
+.b{
+    overflow: hidden;
+    background: #CC3366;
+    margin: 20px auto;
+    padding: 5px;
+    animation: slide 20s infinite;
+}
+.b ul{
+    padding: 10px;
+    margin: 30px;
+}
+.b ul li{
+    list-style: none;
+    float: left;
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    margin: 40px 40px 0px 55px;
+}
+@keyframes slide{
+    25%{
+        background: #FF33FF;
+    }
+    50%{
+        background: #FF3366;
+    }
+    75%{
+        background: #333366;
+    }
+    100%{
+        background: #3333FF;
+    }
+
+
